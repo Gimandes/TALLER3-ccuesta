@@ -11,7 +11,7 @@ class Boa(Animal_exotico):
         return "¡Tssss!"
     
     def alimentar(self):
-        if self._num_ratones >= 10:
+        if self._num_ratones >= 20:
             raise ValueError("Demasiados Ratones!")
         self._num_ratones += 1
         self.peso += 0.5
